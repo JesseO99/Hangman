@@ -1,0 +1,7 @@
+*.code-workspace
+hangman-env
+/hangman-env
+hangman-env/
+/hangman-env/
+hangman-env/*
+/hangman-env/*
