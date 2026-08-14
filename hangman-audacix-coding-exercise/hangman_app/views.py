@@ -18,15 +18,24 @@ class HangmanCreateGameView(APIView):
         secret = random_word.word
         max_incorrect = max(1, ceil(len(secret) / 2))
 
+        
+
         game = Game_State.objects.create(
             word=random_word,
             guessed_word="_" * len(secret),
             max_incorrect_guesses=max_incorrect,
         )
-
+        
+        guesses_made = len(game.guessed_letters)
+        guesses_left = max(0, game.max_incorrect_guesses - game.incorrect_guesses)
+        
         return Response({
             "game_id": game.game_id,
-            "word": random_word.word,
+            "current_state": game.current_state,
+            "guessed_word": game.guessed_word,
+            "guesses_made": guesses_made,
+            "guesses_left": guesses_left,
+            "incorrect_guesses": game.incorrect_guesses,
             "max_incorrect_guesses": game.max_incorrect_guesses,
         }, status=status.HTTP_201_CREATED)
 
