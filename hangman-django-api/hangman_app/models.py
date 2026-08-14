@@ -46,7 +46,7 @@ class Game_State(models.Model):
         self.guessed_word = "".join(guessed_word_list)
         self.check_game_status()
         self.save()
-        return True
+        return not letter_not_in_word
 
     def check_game_status(self):
         if self.guessed_word == self.word.word:

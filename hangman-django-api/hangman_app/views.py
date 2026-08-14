@@ -76,9 +76,13 @@ class GuessLetterView(APIView):
         if len(letter) != 1 or not letter.isalpha():
             return Response({"error": "The guessed value must be a single letter."}, status=status.HTTP_400_BAD_REQUEST)
 
+        # Determine whether the guessed letter appears in the secret word
+        is_correct = letter.lower() in game.word.word.lower()
+
         if letter.lower() in game.guessed_letters.lower():
             return Response({
                 "message": f"The character '{letter}' has already been guessed.",
+                "correct": is_correct,
                 "game_id": game.game_id,
                 "current_state": game.current_state,
                 "guessed_word": game.guessed_word,
@@ -90,6 +94,7 @@ class GuessLetterView(APIView):
         if not updated:
             return Response({
                 "message": f"The character '{letter}' is not available to be guessed.",
+                "correct": False,
                 "game_id": game.game_id,
                 "current_state": game.current_state,
                 "guessed_word": game.guessed_word,
@@ -99,6 +104,7 @@ class GuessLetterView(APIView):
 
         return Response({
             "message": "Letter processed successfully.",
+            "correct": updated,
             "game_id": game.game_id,
             "current_state": game.current_state,
             "guessed_word": game.guessed_word,
