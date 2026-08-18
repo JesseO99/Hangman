@@ -1,0 +1,25 @@
+/* [project]/src/components/LostModal.module.css [app-client] (css) */
+.LostModal-module__il4tbW__overlay {
+  z-index: 9999;
+  background: #00000080;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.LostModal-module__il4tbW__dialog {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 24px;
+  box-shadow: 0 8px 24px #0003;
+}
+
+.LostModal-module__il4tbW__actions {
+  margin-top: 16px;
+}
+
+/*# sourceMappingURL=src_components_LostModal_module_css_1igg3k2._.single.css.map*/

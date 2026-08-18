@@ -1,0 +1,14 @@
+.rootButton {
+  margin-top: 16px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.rootButton[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

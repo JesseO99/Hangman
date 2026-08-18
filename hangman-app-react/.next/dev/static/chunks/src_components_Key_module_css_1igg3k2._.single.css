@@ -1,0 +1,28 @@
+/* [project]/src/components/Key.module.css [app-client] (css) */
+.Key-module__6kpmBW__key {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  min-width: 36px;
+  height: 36px;
+  font-size: 14px;
+  transition: background .12s, box-shadow .12s, color .12s;
+  display: inline-flex;
+  position: relative;
+}
+
+.Key-module__6kpmBW__disabled {
+  cursor: not-allowed;
+}
+
+.Key-module__6kpmBW__overlay {
+  pointer-events: none;
+  border-radius: 6px;
+  position: absolute;
+  inset: 0;
+}
+
+/*# sourceMappingURL=src_components_Key_module_css_1igg3k2._.single.css.map*/

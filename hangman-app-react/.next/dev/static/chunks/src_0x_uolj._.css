@@ -1,0 +1,79 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__page {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  display: flex;
+}
+
+/* [project]/src/components/GuessInput.module.css [app-client] (css) */
+.GuessInput-module__MRE0-G__container {
+  margin-top: 12px;
+}
+
+.GuessInput-module__MRE0-G__input {
+  width: 32px;
+  margin-left: 8px;
+}
+
+.GuessInput-module__MRE0-G__button {
+  margin-left: 8px;
+}
+
+.GuessInput-module__MRE0-G__note {
+  color: gray;
+  margin-top: 8px;
+}
+
+.GuessInput-module__MRE0-G__error {
+  color: red;
+  margin-top: 8px;
+}
+
+/* [project]/src/components/Key.module.css [app-client] (css) */
+.Key-module__6kpmBW__key {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  min-width: 36px;
+  height: 36px;
+  font-size: 14px;
+  transition: background .12s, box-shadow .12s, color .12s;
+  display: inline-flex;
+  position: relative;
+}
+
+.Key-module__6kpmBW__disabled {
+  cursor: not-allowed;
+}
+
+.Key-module__6kpmBW__overlay {
+  pointer-events: none;
+  border-radius: 6px;
+  position: absolute;
+  inset: 0;
+}
+
+/* [project]/src/components/Keyboard.module.css [app-client] (css) */
+.Keyboard-module__mYpHJG__container {
+  margin-top: 12px;
+}
+
+.Keyboard-module__mYpHJG__rows {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.Keyboard-module__mYpHJG__row {
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_0x_uolj._.css.map*/

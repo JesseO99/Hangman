@@ -1,0 +1,20 @@
+.page {
+  width: 100%;
+  /* occupy the viewport height minus the fixed header height */
+  min-height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.main {
+
+}
+
+.startWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+

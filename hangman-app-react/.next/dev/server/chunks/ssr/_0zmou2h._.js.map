@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/jeje162/code-workspaces/hangman-audacix-code-task/hangman-app-react/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///home/jeje162/code-workspaces/hangman-audacix-code-task/hangman-app-react/src/app/page.js"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\nimport styles from \"./page.module.css\";\nimport Game from \"../components/Game\";\n\nexport default function Home() {\n  return (\n    <div className={styles.page}>\n      <main className={styles.main}>\n        <Game />\n      </main>\n\n      \n    </div>\n  );\n}\n"],"names":["Home","className","page","main"],"mappings":";;;;;AAEA;AACA;AACA;AAJA;;;;;AAMe,SAASA;IACtB,qBACE,8OAAC;QAAIC,WAAW,yIAAM,CAACC,IAAI;kBACzB,cAAA,8OAAC;YAAKD,WAAW,yIAAM,CAACE,IAAI;sBAC1B,cAAA,8OAAC,oIAAI;;;;;;;;;;;;;;;AAMb"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-ssr] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"page\": \"page-module___8aEwW__page\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}}]
+}

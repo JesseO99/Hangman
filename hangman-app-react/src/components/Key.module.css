@@ -1,0 +1,26 @@
+.key {
+  min-width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background 120ms, box-shadow 120ms, color 120ms;
+  position: relative;
+}
+.disabled {
+  cursor: not-allowed;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 6px;
+  pointer-events: none;
+}

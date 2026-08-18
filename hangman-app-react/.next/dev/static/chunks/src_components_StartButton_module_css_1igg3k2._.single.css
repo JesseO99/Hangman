@@ -1,0 +1,18 @@
+/* [project]/src/components/StartButton.module.css [app-client] (css) */
+.StartButton-module__KKD5Kq__rootButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: 6px;
+  margin-top: 16px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.StartButton-module__KKD5Kq__rootButton[disabled] {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=src_components_StartButton_module_css_1igg3k2._.single.css.map*/

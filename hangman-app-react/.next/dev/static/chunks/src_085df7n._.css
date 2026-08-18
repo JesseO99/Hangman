@@ -1,0 +1,35 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__page {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  display: flex;
+}
+
+/* [project]/src/components/GuessInput.module.css [app-client] (css) */
+.GuessInput-module__MRE0-G__container {
+  margin-top: 12px;
+}
+
+.GuessInput-module__MRE0-G__input {
+  width: 32px;
+  margin-left: 8px;
+}
+
+.GuessInput-module__MRE0-G__button {
+  margin-left: 8px;
+}
+
+.GuessInput-module__MRE0-G__note {
+  color: gray;
+  margin-top: 8px;
+}
+
+.GuessInput-module__MRE0-G__error {
+  color: red;
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=src_085df7n._.css.map*/

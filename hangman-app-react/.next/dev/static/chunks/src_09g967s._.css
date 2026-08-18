@@ -1,0 +1,198 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__page {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  display: flex;
+}
+
+.page-module___8aEwW__startWrapper {
+  justify-content: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+/* [project]/src/components/GuessInput.module.css [app-client] (css) */
+.GuessInput-module__MRE0-G__container {
+  margin-top: 12px;
+}
+
+.GuessInput-module__MRE0-G__input {
+  width: 32px;
+  margin-left: 8px;
+}
+
+.GuessInput-module__MRE0-G__button {
+  margin-left: 8px;
+}
+
+.GuessInput-module__MRE0-G__note {
+  color: gray;
+  margin-top: 8px;
+}
+
+.GuessInput-module__MRE0-G__error {
+  color: red;
+  margin-top: 8px;
+}
+
+/* [project]/src/components/Key.module.css [app-client] (css) */
+.Key-module__6kpmBW__key {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  min-width: 36px;
+  height: 36px;
+  font-size: 14px;
+  transition: background .12s, box-shadow .12s, color .12s;
+  display: inline-flex;
+  position: relative;
+}
+
+.Key-module__6kpmBW__disabled {
+  cursor: not-allowed;
+}
+
+.Key-module__6kpmBW__overlay {
+  pointer-events: none;
+  border-radius: 6px;
+  position: absolute;
+  inset: 0;
+}
+
+/* [project]/src/components/Keyboard.module.css [app-client] (css) */
+.Keyboard-module__mYpHJG__container {
+  margin-top: 12px;
+}
+
+.Keyboard-module__mYpHJG__rows {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.Keyboard-module__mYpHJG__row {
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+/* [project]/src/components/GuessedWord.module.css [app-client] (css) */
+.GuessedWord-module__A2SBSW__container {
+  margin-top: 8px;
+}
+
+.GuessedWord-module__A2SBSW__row {
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+.GuessedWord-module__A2SBSW__charBox {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  min-width: 32px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+}
+
+/* [project]/src/components/WinModal.module.css [app-client] (css) */
+.WinModal-module__-WlRCq__overlay {
+  z-index: 9999;
+  color: #000;
+  background: #00000080;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.WinModal-module__-WlRCq__dialog {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 24px;
+  box-shadow: 0 8px 24px #0003;
+}
+
+.WinModal-module__-WlRCq__actions {
+  margin-top: 16px;
+}
+
+/* [project]/src/components/LostModal.module.css [app-client] (css) */
+.LostModal-module__il4tbW__overlay {
+  z-index: 9999;
+  background: #00000080;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.LostModal-module__il4tbW__dialog {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 24px;
+  box-shadow: 0 8px 24px #0003;
+}
+
+.LostModal-module__il4tbW__actions {
+  margin-top: 16px;
+}
+
+/* [project]/src/components/StartButton.module.css [app-client] (css) */
+.StartButton-module__KKD5Kq__rootButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: 6px;
+  margin-top: 16px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.StartButton-module__KKD5Kq__rootButton[disabled] {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+/* [project]/src/components/Game.module.css [app-client] (css) */
+.Game-module__GRocya__root {
+  color: #000;
+  background-color: #fff;
+  border: 4px solid #000;
+  border-radius: 12px;
+  margin-top: 16px;
+  padding: 2em;
+}
+
+.Game-module__GRocya__section {
+  margin-top: 12px;
+}
+
+.Game-module__GRocya__error {
+  color: red;
+  margin-top: 12px;
+}
+
+.Game-module__GRocya__note {
+  color: #353535;
+  margin-top: 12px;
+}
+
+/*# sourceMappingURL=src_09g967s._.css.map*/

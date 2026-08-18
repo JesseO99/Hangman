@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/GuessedWord.module.css"],"sourcesContent":[".container {\n  margin-top: 8px;\n}\n.row {\n  display: flex;\n  gap: 8px;\n  justify-content: center;\n}\n.charBox {\n  min-width: 32px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n  font-size: 18px;\n  background: #fff;\n}\n"],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;AAKA"}}]
+}

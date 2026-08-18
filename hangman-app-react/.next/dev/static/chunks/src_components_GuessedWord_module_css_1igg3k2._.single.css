@@ -1,0 +1,24 @@
+/* [project]/src/components/GuessedWord.module.css [app-client] (css) */
+.GuessedWord-module__A2SBSW__container {
+  margin-top: 8px;
+}
+
+.GuessedWord-module__A2SBSW__row {
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+.GuessedWord-module__A2SBSW__charBox {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  min-width: 32px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_GuessedWord_module_css_1igg3k2._.single.css.map*/

@@ -1,0 +1,18 @@
+/* [project]/src/components/Keyboard.module.css [app-client] (css) */
+.Keyboard-module__mYpHJG__container {
+  margin-top: 12px;
+}
+
+.Keyboard-module__mYpHJG__rows {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.Keyboard-module__mYpHJG__row {
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_Keyboard_module_css_1igg3k2._.single.css.map*/
